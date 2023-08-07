@@ -4,12 +4,9 @@ def binarysearch():
     the_array = [10,12,17,20,21,23,32,33,37,38,90,100,102]
     lower_bound = 0
     upper_bound = len(the_array)- 1
-
-    midpoint = (lower_bound+upper_bound)/2
-
     the_value_at_midpoint = the_array[midpoint]
-
     while lower_bound <= upper_bound:
+        midpoint = (lower_bound+upper_bound)/2
         if the_requested_value == the_value_at_midpoint:
             return midpoint
         elif the_requested_value < the_value_at_midpoint:

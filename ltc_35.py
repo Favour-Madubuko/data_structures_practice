@@ -1,4 +1,5 @@
-#This is a binary search question
+#SearchInsertPosition
+#Binary search question
 the_requested_value = int(input("Input a number:\n"))
 def searchInsertPosition():
     array = [10,12,17,20,21,23,32,33,37,38,90,100,102]
