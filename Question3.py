@@ -44,19 +44,6 @@ travelcost={
      'G-E':3
  }
 
-# travelcost = {
-#     'A-B': 1,
-#     'A-C': 4,
-#     'C-B': 2,
-#     'B-C': 2,
-#     'C-E': 5,
-#     'E-C': 5,
-#     'B-D': 3,
-#     'D-F': 2,
-#     'D-G': 4,
-#     'F-G': 1,
-#     'E-G': 3,
-# }
 
 graph = {
     'A': set(['B', 'C']),
@@ -71,6 +58,3 @@ start_node = 'A'
 goal_node = 'G'
 
 print(greedy_best_first_search(graph, start_node, goal_node))
-#     print('Goal reached: There is a path from {} to {}.'.format(start_node, goal_node))
-# else:
-#     print('Goal not reached: There is no path from {} to {}.'.format(start_node, goal_node))
